@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegisterPro | Registration Form</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-user-shield"></i>
+            <span>RegisterPro</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Registration Form -->
+
+    <div class="container" id="home">
+
+        <div class="logo-area">
+
+            <div class="logo-circle">
+                <i class="fa-solid fa-user-shield"></i>
+            </div>
+
+            <h2>Register Pro</h2>
+
+            <p>Secure Registration Portal</p>
+
+        </div>
+
+        <h1>Create Your Account</h1>
+
+        <p class="subtitle">
+            Join our secure platform by filling out the registration form.
+        </p>
+
+        <button id="darkBtn">🌙 Dark Mode</button>
+
+        <form id="myForm">
+
+            <div class="input-box">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="name" placeholder="Full Name">
+            </div>
+
+            <p class="error" id="nameError"></p>
+
+            <div class="input-box">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="email" placeholder="Email Address">
+            </div>
+
+            <p class="error" id="emailError"></p>
+
+            <div class="input-box password-box">
+
+                <i class="fa-solid fa-lock"></i>
+
+                <input type="password" id="password" placeholder="Password">
+
+                <i class="fa-solid fa-eye" id="togglePassword"></i>
+
+            </div>
+
+            <div class="strength">
+                <div id="strengthBar"></div>
+            </div>
+
+            <p class="error" id="passwordError"></p>
+
+            <button type="submit">
+                Register Now
+            </button>
+
+        </form>
+
+        <p id="success"></p>
+
+    </div>
+
+    <!-- Features -->
+
+    <section class="section" id="features">
+
+        <h2>Our Features</h2>
+
+        <div class="feature-card">
+            <h3>🔒 Secure Registration</h3>
+            <p>Advanced client-side validation keeps your data accurate.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🌙 Dark Mode</h3>
+            <p>Switch between light and dark themes instantly.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>💪 Password Strength Meter</h3>
+            <p>Real-time password strength analysis for better security.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>📱 Responsive Design</h3>
+            <p>Works beautifully on desktop, tablet, and mobile devices.</p>
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section class="section" id="contact">
+
+        <h2>Contact</h2>
+
+        <p>📧 Email: sanaawan2007@gmail.com</p>
+
+        <p>💻 GitHub: github.com/Sanaawan2007-netizen</p>
+
+        <p>📍 Pakistan</p>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 Sana Awan | Week 2 Web Development Internship Project
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
